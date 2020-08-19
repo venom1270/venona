@@ -35,10 +35,8 @@ def encode(sentence):
 
     # One time pad - CAN BE SKIPPED?
     # pad = ["56328", "29731", "35682", "23798"]
-    pad0 = ["12679", "97256", "19494", "36081"]
-    pad1 = ["06432", "51823", "54786", "61184"]
-    my_game_pad = ["10858", "36166", "15640", "17965"]
-    # pad = ["18001", "48079", "63170", "97165"] # This is Youtuber's pad
+    # my_game_pad = ["10858", "36166", "15640", "17965"]
+    # pad = ["18001", "48079", "63170", "97165"] # pad in PDF
     pad = ["10858", "36166", "15640", "17965"] # This is my game pad
     padded_string = ""
     print("Using pad:")
